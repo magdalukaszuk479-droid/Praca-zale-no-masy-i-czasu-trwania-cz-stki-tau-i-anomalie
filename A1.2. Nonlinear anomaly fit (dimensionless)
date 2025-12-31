@@ -1,0 +1,28 @@
+a = 6.000e-05 ± 1.893e-07   (linear LV)
+b = 1.050e-04 ± 2.983e-07   (quadratic QG)
+mean  = 1.429e-06
+std   = 2.000e-02
+skew  = -4.762e-03
+kurt. = -2.223e-02
+
+Liczby LV i QG powinny być równe 0 w tradycyjnym SR Einsteina. Wynik QG jest większą anomalią ze względu na fakt, że  jest kwadratowy.
+Wymaga to jednak dalszego potwierdzenia z  Bootstrap Toy Monte Carlo.
+kurt. = -2.223e-02 oznacza, że wyniki nie skupiają się głównie blisko średniej.
+wysoki poziom std mówi, że taony mają bardzo różnorodny czas trwania życia.
+mean  pokazuje, jak dużo wyniki nie są spójne z wynikami Einsteina
+a - współczynnik łamania symetrii gdy taon uderza  tło wszechświat, im bardziej zmienia to  czas życia.
+b- Współczynnik modyfikacji relacji dyspersyjnej rzędu drugiego, nieliniowe (kwadratowe)  naruszenie symetrii Lorentza, efekty ze skali Planka- jest dużo wyższy gdy energia jest większa (skaluje się z kwadratem energii cząstki)
+
+Os x residual r= (tau - tau_SR)/tau_SR
+Os y: liczebność błędu
+Dane ukladaja sie w ksztalt symetrii ,,dzwonu’’Gaussowego, co jest oczekiwane.
+Wykres wskazuje na brak naruszenia SR. Jednak, była to wersja czysta bez wcześniejszych danych. 
+
+Oto wykres testu liniowości, na podstawie poprzednich danych pokazujący anomalie. 
+linia niebieska odpowiada Fit QG trend 
+linia czerwona odpowiada Fit LVrend
+linia fioletowa przerywana odpowiada SR
+kropki różowe odpowiadają pojedynczym zdarzeniom LV (czyli odpowiada to liniowe naruszenie Lorentza
+kropki niebieskie odpowiadają pojedynczym zdarzeniem QG (, nieliniowe (kwadratowe)  naruszenie symetrii Lorentza,).
+Dane przedstawione za pomocą kropek, są to pojedyncze dane, które zawierają szum statystyczny, dlatego odbiegają od linii SR.
+Dane odbiegają od SR co możemy na linii fioletowej (LV)i niebieskiej  i (QG) w stosunku do SR, co sugeruje anomalię.
