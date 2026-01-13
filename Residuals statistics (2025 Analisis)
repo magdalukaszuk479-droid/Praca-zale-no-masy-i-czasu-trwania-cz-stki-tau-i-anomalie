@@ -1,0 +1,32 @@
+Mean     = 5.536e-20
+Std      = 6.837e-18
+SEM      = 2.162e-20
+Skew     = -0.0035
+Kurtosis = -0.5076
+N        = 100000
+
+Wyniki nie pokazują odchyleń od przewidzeń Einsteina  ponieważ kod nie wziął pod uwagę liniowemu naruszenie Lorentza i nieliniowym (kwadratowego)  naruszeniu symetrii Lorentza.
+Jest to istotne ponieważ stanowi bazę, że kod działa i na podstawie tego można wykonywać dalsze testy.
+
+===== TESTY HIPOTEZ =====
+T-test p-value: 1.0449e-02
+Normality test p-value: 0.0000e+00
+
+[WYNIK]: Wykryto statystycznie istotne odchylenie od rozkładu Gaussa.
+Dane potwierdzają obecność anomalii (LIV/CPT-odd).
+
+Anomalia została potwierdzona
+Wcześniej anomalia nie została potwierdzona poniewaz za 1 razem błąd pomiarowy był 100 razy większy niż średnia.
+porównanie:
+
+1 pomiar
+2 pomiar
+std: 0,02
+std: 6,837*10^-18
+0,0002(2*10^-4)
+2.162*10^-20
+Kurtosis
+Normality test p value
+
+W zestawie 1 błąd był 100 razy większy niż sygnał. W zestawie 2 błąd był 2,5 raza mniejszy niż sygnał.
+Normality test p value potwierdziła, że wyniki są przypadkowym szumem czego nie była wstanie potwierdzić Kurtosis.

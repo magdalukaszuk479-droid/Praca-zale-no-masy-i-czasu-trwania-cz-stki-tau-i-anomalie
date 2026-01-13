@@ -1,0 +1,26 @@
+===== A1.1 Lifetime scaling test =====
+Wyniki symulacji Lifetime scalling pokazały:
+
+
+
+
+[Special Relativity (SR)]
+mean(tau_lab/gamma) = 2.903e-13 s
+std(tau_lab/gamma) = 5.135e-29 s
+relative spread = 1.769e-16
+[Lorentz Violation (LV)]
+mean(tau_lab/gamma) = 2.903e-13 s
+std(tau_lab/gamma) = 8.488e-18 s
+relative spread = 2.924e-05
+[Planck-scale / QG]
+mean(tau_lab/gamma) = 2.903e-13 s (wyniki są inne prędkość nie jest stała zgodnie z Lorentz złamaniem zasady)
+std(tau_lab/gamma) = 5.135e-29 s (czas trwania) (jak szeroka anomalia, normalnie wynosi 0)(,,odległość od środka’’)
+relative spread = 1.769e-16 (jak szeroki błąd w stosunku do wartości) (jak dokładne w stosunku do mierzenia)
+Rozrzut względny (relative spread = 1.769e-16) jest bardzo mało, praktycznie zgodnie z teorią Einsteina. Jest to wynik po kalkulacjach bez współczynnika naruszenia symetrii CPT)
+Rozrzut względny (relative spread = 2.924e-05) jest 11 razy wiecej niz w przykladu modelu SR. Wynik sugeruje ze symetria może być naruszona, ale wymaga ona potwierdzenia  Bootstrap Toy Monte Carlo, że nie jest to tylko szum. Jest to wynik po kalkulacjach z współczynnikiem naruszenia symetrii CPT)
+
+Oś pozioma pokazuje energię w [MeV]
+Oś pionowa przedstawia czas życia cząstki w jej układzie spoczynkowym.
+Na linie dolna pokrywaja sie 3 linie: SR,QR i linia oczekiwana T_0.
+Linia pomarańczowa znacznie odbiega od SR, QG, i od przewidywanej 
+Wyniki sugerują anomalie którą należy potwierdzić Toy MC.

@@ -1,0 +1,41 @@
+
+a = 6.000e-05 ± 1.893e-07   (linear LV)
+b = 1.050e-04 ± 2.983e-07   (quadratic QG)
+
+mean  = 1.429e-06
+std   = 2.000e-02
+skew  = -4.762e-03
+kurt. = -2.223e-02
+
+dane a LV świadczą o anomalii liniowej. W wszechświecie co SR działałoby idealnie z założeniami EInsteina, by wynosiło 0.
+dane b QG świadczą o anomalii kwadratowej. W wszechświecie co SR działałoby idealnie z założeniami EInsteina, b bby wynosiło 0, tak samo jak inne dane.
+
+By sprawdzić czy MEAN sie zgadza, obliczyłam  w Pythonie:
+SEM = (std) / √N
+SEM = Standardowy błąd średniej
+std - odchylenie standardowe (miara rozkładu błędu)
+N - ilość danych
+Po obliczeniu w Pythonie utrzymane zostało:
+
+Liczba punktów danych (N): 10000
+Odchylenie standardowe (std): 0.02
+Standard Error of the Mean (SEM): 0.0002
+Wynik SEM oznacza, zeprecyzyjnosc danych jest  wystarczajaca do zwiecia ich pod uwage.
+Wynik mean  = 1.429e-06 średia wartość rezyduum ówoznacza że model nie jest nieobciążony, czyli że nie ma szumu, czyli do przeszacowania lub niedoszacowania.
+rezyduum- miara tego jak bardzo dane eksperymentalne odchodzą od teoretycznego modelu:
+mean = 0, co oznacza idealną zgodność z teorią Einsteina
+mean >0, czas życia dłuższy niż przewidywany przez Einsteina
+mean <0, czas życia krótszy niż przewidywany przez Einsteina
+mean  = 1.429e-06, co oznacza
+std   = 2.000e-02 (odchylenie standardowe- poziom rozrzutu danych)
+Wynik skew  = -4.762e-03 mowi ze rozklad jest prawie idealnie symetrycznie (jakby było idealnie to by było równe 0)
+kurt. = -2.223e-02 miara spłaszczenia rozkładu
+
+
+
+
+
+Wykres pokazuje rozkład rezyduów, czyli różnice pomiędzy to co przewidziała oparta na SME pomiędzy teorią Einsteina.
+Oś pozioma (Residual r= tau-tau_SR)/tau_SR pokazuje jak często reziduum wystąpiło podczas symulacji.
+Oś pionowa- counts pokazuje wartość anomalii dla danego pomiaru.
+Dane na wykresie ubiegają się w kształcie dzwonu, co jest spodziewane w symulacjach Monte Carlo.

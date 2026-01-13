@@ -1,0 +1,13 @@
+Prawo Loretnza : τlab​=τ0​γ(1+δ(γ,p​,n^))
+cpt
+c-charge-ładunek- zamiana cząstek na antycząstki
+p-parity-parzystość- odbicie przestrzebnne
+t-time-czas- odwrócenie kierunku czasu
+Wyniki symulacji:
+symulacja 1:
+CPT-even: mean delta = 8.073e-17 s, max delta = 2.903e-16 s
+CPT-odd : mean delta = 5.376e-18 s, max delta = 1.451e-17 s
+W typowym SR obie liczby powinny wynosić 0, jednak są one oczekiwane z ME (rozszerzenia Modelu Standardowego), które dopuszczenie naruszenie reguły Lorentza.
+
+Wykres jest dowodem na to, że efekty naruszenia Lorentza są zależne od energii.
+Teoria Einsteina ,SR mówi, że obie linie CPTeven i 
